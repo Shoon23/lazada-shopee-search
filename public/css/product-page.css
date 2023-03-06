@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.search-input-wrapper {
+  display: flex;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+}
+form {
+  width: 900px;
+}
+
+input {
+  width: 90%;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.logo {
+  width: 250px;
+  height: 100px;
+}
+
+svg {
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  height: 100vh;
+  overflow-y: scroll;
+  width: 1000px;
+}
+a {
+  text-decoration: none;
+}
+.product-panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+.product-img {
+  width: 220px;
+  height: 220px;
+}
+.price-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.product-card {
+  border: 1px;
+  border-style: groove;
+  width: 220px;
+}
+.product-card:hover {
+  transform: scale(1.1);
+}
+
+.product-name {
+  color: black;
+  font-size: 20px;
+  margin: 4px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 220px;
+
+  height: 20 px;
+}
+.price {
+  color: black;
+}
+.sold {
+  color: gray;
+}

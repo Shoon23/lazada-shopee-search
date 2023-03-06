@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-input-wrapper {
+  display: flex;
+  width: 100%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+
+  border-color: gray;
+}
+input {
+  width: 90%;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+svg {
+  margin-left: 2px;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
